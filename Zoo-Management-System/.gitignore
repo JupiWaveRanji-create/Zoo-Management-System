@@ -1,0 +1,16 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build output
+/out/
+/target/
+/build/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
