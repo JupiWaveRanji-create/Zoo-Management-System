@@ -1,4 +1,6 @@
-package zoo;
+package zoo.app;
+
+import zoo.model.*;
 
 /**
  *
