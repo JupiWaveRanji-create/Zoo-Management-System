@@ -1,16 +1,19 @@
-# IntelliJ
+# IntelliJ and project settings
 .idea/
 *.iml
 
 # Build output
-/out/
-/target/
-/build/
+out/
+target/
+build/
+
+# Ignore all compiled class files
+**/*.class
 
 # OS noise
 .DS_Store
 Thumbs.db
 
-# Logs / temp
+# Logs / temporary
 *.log
 *.tmp
