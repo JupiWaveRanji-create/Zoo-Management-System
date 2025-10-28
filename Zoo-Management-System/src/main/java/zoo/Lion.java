@@ -1,9 +1,9 @@
 package zoo;
 
 /**
- * --------------------------------------------------------------------------
- * Class: Lion
- * --------------------------------------------------------------------------
+ *
+ *  * Class: Lion
+ *
  * Description:
  * This subclass represents a Lion in the zoo. It extends the Animal class
  * and overrides the abstract method dailyPortionKg() to provide its own
@@ -13,7 +13,7 @@ package zoo;
  *     Daily food = 0.05 × body weight
  * Diet Type:
  *     CARNIVORE
- * --------------------------------------------------------------------------
+ *
  */
 public class Lion extends Animal {
 

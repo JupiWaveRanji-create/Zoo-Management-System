@@ -1,9 +1,9 @@
 package zoo;
 
 /**
- * --------------------------------------------------------------------------
+ *
  * Class: Elephant
- * --------------------------------------------------------------------------
+ *
  * Description:
  * This subclass represents an Elephant in the zoo. It inherits all common
  * properties from Animal and provides a specific implementation of
@@ -13,7 +13,7 @@ package zoo;
  *     Daily food = 0.03 × body weight
  * Diet Type:
  *     HERBIVORE
- * --------------------------------------------------------------------------
+ *
  */
 public class Elephant extends Animal {
 

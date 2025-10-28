@@ -1,9 +1,9 @@
 package zoo;
 
 /**
- * --------------------------------------------------------------------------
+ *
  * Class: Penguin
- * --------------------------------------------------------------------------
+ *
  * Description:
  * This subclass models a Penguin. It implements its own formula for
  * computing daily food requirement, demonstrating method overriding.
@@ -12,7 +12,7 @@ package zoo;
  *     Daily food = 0.06 × body weight
  * Diet Type:
  *     OMNIVORE
- * --------------------------------------------------------------------------
+ *
  */
 public class Penguin extends Animal {
 

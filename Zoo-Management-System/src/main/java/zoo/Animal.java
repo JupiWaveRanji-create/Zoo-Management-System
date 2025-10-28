@@ -1,9 +1,9 @@
 package zoo;
 
 /**
- * --------------------------------------------------------------------------
+ *
  * Abstract Class: Animal
- * --------------------------------------------------------------------------
+ *
  * Description:
  * This abstract class represents the general blueprint for all animals
  * maintained in the Zoo Management System. It defines the key attributes
@@ -23,11 +23,11 @@ package zoo;
  *   in each subclass.
  * - Polymorphism: feed() and displayStatus() behave appropriately based on
  *   the subclass object.
- * --------------------------------------------------------------------------
+ *
  */
 public abstract class Animal {
 
-    // ------------------------- Core Attributes -----------------------------
+    //Core Attributes
     private final String animalID;
     private final String name;
     private final String species;
@@ -67,14 +67,14 @@ public abstract class Animal {
         this.requiredMealsPerDay = requiredMealsPerDay;
     }
 
-    // ------------------------- Abstract Method -----------------------------
+    //Abstract Method
     /**
      * Abstract method that must be implemented by each subclass.
      * Calculates the total amount of food (in kilograms) required per day.
      */
     public abstract double dailyPortionKg();
 
-    // ------------------------- Feeding Methods -----------------------------
+    // Feeding Methods
     /**
      * Default feeding method that divides the total daily portion evenly
      * across all required meals.
@@ -104,7 +104,7 @@ public abstract class Animal {
                 mealsFedToday, requiredMealsPerDay);
     }
 
-    // ------------------------- Display Method ------------------------------
+    // Display Method
     /**
      * Displays current information about the animal, including ID,
      * species, diet, feeding progress, and daily food requirement.
@@ -115,7 +115,7 @@ public abstract class Animal {
                 mealsFedToday, requiredMealsPerDay, dailyPortionKg());
     }
 
-    // ------------------------- Getters -------------------------------------
+    // Getters
     public String getAnimalID() { return animalID; }
     public String getName() { return name; }
     public String getSpecies() { return species; }
