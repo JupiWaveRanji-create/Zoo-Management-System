@@ -11,7 +11,6 @@ import zoo.model.*;
  * It demonstrates how abstract classes and inheritance work together in
  * an object-oriented design. Each animal object (Lion, Elephant, Penguin, Owl)
  * extends the abstract Animal class and overrides the method dailyPortionKg().
- *
  * This class also shows:
  *  - Creation of subclass objects using constructors.
  *  - Method overriding (each animal calculates food differently).
